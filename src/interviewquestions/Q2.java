@@ -1,4 +1,4 @@
 package interviewquestions;
 
-public class Main {
+public class Q2 {
 }
