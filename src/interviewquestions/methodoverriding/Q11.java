@@ -1,5 +1,7 @@
 package interviewquestions.methodoverriding;
 
+// Can you identify error in the below code snippet?
+
 import java.io.IOException;
 
 public class Q11 {

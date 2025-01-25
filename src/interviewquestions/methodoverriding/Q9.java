@@ -1,5 +1,7 @@
 package interviewquestions.methodoverriding;
 
+//What will be the output of the following program?
+
 public class Q9 {
     void m1(Number n) {
         System.out.println("m1-P");

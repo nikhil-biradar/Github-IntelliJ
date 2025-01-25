@@ -1,5 +1,7 @@
 package interviewquestions.methodoverriding;
 
+//What will be the output of the following program?
+
 class X1 {
     void draw(int a, float b) throws Throwable {
         System.out.println("Circle");

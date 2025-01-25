@@ -1,5 +1,7 @@
 package interviewquestions.methodoverriding;
 
+// What will be the output of the following program?
+
 public class Q4 {
     synchronized void m1() {
         System.out.println("m1-A");

@@ -1,5 +1,7 @@
 package interviewquestions.methodoverriding;
 
+// What will be the output of the following program?
+
 class XY
 {
     protected Number m1(int a)

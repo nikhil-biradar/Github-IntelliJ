@@ -1,5 +1,6 @@
 package interviewquestions.methodoverriding;
 
+//Will the below code compile successfully?
 
 public class Q2 {
     public final void m1() {

@@ -1,5 +1,7 @@
 package interviewquestions.methodoverriding;
 
+// In the below snippet code, Is m1() correctly overridden in the subclasses of class X?
+
 public class Q13 {
     void m1() {
 

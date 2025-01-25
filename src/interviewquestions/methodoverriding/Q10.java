@@ -1,5 +1,7 @@
 package interviewquestions.methodoverriding;
 
+// In the below example program, class Q extends class P. Which method of class Q is not properly overridden in class B?
+
 public class Q10 {
     public Object m1() {
         return null;

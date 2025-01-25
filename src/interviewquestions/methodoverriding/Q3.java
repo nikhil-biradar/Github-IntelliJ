@@ -1,5 +1,7 @@
 package interviewquestions.methodoverriding;
 
+// Will the below code compile successfully? If yes, what will be the output?
+
 public class Q3 {
     protected void m1() {
         System.out.println("m1-A");

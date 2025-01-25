@@ -1,5 +1,7 @@
 package interviewquestions.methodoverriding;
 
+// What will be the output of the following program?
+
 class Animal {
     void m1(Animal a) {
         System.out.println("Both dogs and cats are pets.");

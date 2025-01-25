@@ -1,5 +1,7 @@
 package interviewquestions.methodoverriding;
 
+//What will be the output of the following program?
+
 class X {
     strictfp void method(int a) {
         System.out.println("One");
