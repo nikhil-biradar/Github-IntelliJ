@@ -1,4 +1,4 @@
 package practiceprograms;
 
-public class LeapYear {
+public class Palindrome {
 }

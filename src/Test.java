@@ -42,10 +42,12 @@ public class Test {
 
 class Test1 {
     public Test1() {
+        this(12);
         System.out.println("No-arg Constructor Test1");
     }
 
     public Test1(int m) {
+        this("JJ", 45);
         System.out.println("1-arg Constructor Test1");
     }
 
@@ -55,10 +57,12 @@ class Test1 {
 }
 public class Test extends Test1 {
     public Test() {
+        this(23, "Aa");
         System.out.println("No-arg Constructor Test");
     }
 
     public Test(int a, String b) {
+        this("aa", 12, true);
         System.out.println("2-arg Constructor Test");
     }
 
