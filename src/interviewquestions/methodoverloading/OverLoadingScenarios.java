@@ -1,4 +1,4 @@
-package interviewquestions;
+package interviewquestions.methodoverloading;
 
 class A
 {
