@@ -13,7 +13,7 @@ class C extends B
 
 }
 
-public class OverLoadingScenarios
+public class Q1
 {
     void m1(A a) {
         System.out.println("I am in m1-A");
@@ -29,7 +29,7 @@ public class OverLoadingScenarios
 class OverLoadingTest {
     public static void main(String[] args)
     {
-        OverLoadingScenarios obj = new OverLoadingScenarios();
+        Q1 obj = new Q1();
 // Scene 1:
         A a = new A();
         obj.m1(a);

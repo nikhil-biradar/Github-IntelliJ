@@ -1,5 +1,7 @@
 package interviewquestions.methodoverriding;
 
+//Is the below code successfully overridden?
+
 public class Q1 {
     private void m1() {
         System.out.println("m1-A");

@@ -6,13 +6,13 @@ public class Q9 {
     }
 }
 
-class Q2 extends Q9 {
+class W extends Q9 {
     void m1(double d) {
         System.out.println("m2-Q");
     }
 
     public static void main(String[] args) {
-        Q2 q = new Q2();
+        W q = new W();
         q.m1(1);
         q.m1(null);
     }
