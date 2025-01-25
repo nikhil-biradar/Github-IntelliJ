@@ -1,0 +1,15 @@
+package interviewquestions.methodoverriding;
+
+import java.io.IOException;
+
+public class Q11 {
+    public Object m1(char c) {
+        return null;
+    }
+}
+
+class E extends P {
+    public String m1(char c) throws IOException {
+        return null;
+    }
+}
