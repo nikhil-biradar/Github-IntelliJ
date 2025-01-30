@@ -1,3 +1,33 @@
+
+
+class Test {
+
+    int a;
+    int b;
+
+    Test(){
+        System.out.println(a + " " + b);
+    }
+
+    Test(int a, int b){
+        System.out.println(a + " " +b);
+    }
+
+    public static void main(String[] args) {
+        Test a = new Test(20, 30);
+        Test b = new Test();
+    }
+}
+
+//class A extends Test {
+//
+//    public static void main(String[] args) {
+//        Test a = new Test();
+//
+//    }
+//}
+
+
 //BinarySearch Array Method
 /*
 import java.util.Arrays;
@@ -38,6 +68,7 @@ public class Test {
 */
 
 
+/*
 //Constructor Chaining
 
 class Test1 {
@@ -75,3 +106,4 @@ public class Test extends Test1 {
 
     }
 }
+*/
