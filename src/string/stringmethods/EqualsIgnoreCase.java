@@ -1,4 +1,4 @@
-package string;
+package string.stringmethods;
 
 public class EqualsIgnoreCase {
     public static void main(String[] args) {
