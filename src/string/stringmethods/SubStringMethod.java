@@ -3,10 +3,18 @@ package string.stringmethods;
 public class SubStringMethod {
     public static void main(String[] args) {
 
+        /*
+        String s = "Biradar";
+        System.out.println(s.substring(0, 3));
+        System.out.println(s.substring(3, 6));
+        System.out.println(s.substring(5));*/
+
+
         //Example 1
         String s1 = new String("SachinTendulkar");
         s1.substring(5);
         System.out.println(s1);
+        System.out.println(s1.substring(5));
 
         String s2 = s1.substring(6, 15);
         System.out.println(s2);
@@ -22,5 +30,6 @@ public class SubStringMethod {
 
         String s6 = s4.substring(3, 9);
         System.out.println(s6);
+
     }
 }

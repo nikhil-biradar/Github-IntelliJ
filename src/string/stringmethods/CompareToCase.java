@@ -1,8 +1,9 @@
 package string.stringmethods;
 
-public class CompareToMethod {
+public class CompareToCase {
     public static void main(String args[])
     {
+
         String s1 = "mumbai";
         String s2 = "mumbai";
         String s3 = "ranchi";
@@ -23,5 +24,7 @@ public class CompareToMethod {
 
 // This statement will print 4 because there are 4 characters in pune, whereas empty string has no characters.
         System.out.println(s4.compareTo(s5));
+
     }
 }
+
