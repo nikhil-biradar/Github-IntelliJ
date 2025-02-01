@@ -2,9 +2,9 @@ package string.stringmethods;
 
 public class SplitMethod {
     public static void main(String[] args) {
-        String str = "I Love JavaTechnology";
+        String string = "I Love Java Technology";
 
-        String arr [] = str.split(" ");
+        String arr [] = string.split(" ");
 
         for(int i = 0; i < arr.length; i++){
             System.out.println(arr[i]);
