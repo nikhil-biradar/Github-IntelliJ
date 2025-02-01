@@ -1,6 +1,6 @@
-package stringbuffer;
+package stringbuffer.stringbuffermethods;
 
-public class deleteChartAt {
+public class DeleteChartAt {
     public static void main(String[] args) {
 
         StringBuffer sb = new StringBuffer("Nikhil");
