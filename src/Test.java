@@ -2,7 +2,28 @@
 
 public class Test {
 
+    public static void main(String[] args) {
+
+        int arr [] = {1, 5, -8, 6, 7, 0, -3, 4};
+
+
+    }
+
+    /*
+    public static void main(String[] args) {
+
+        String s1 = " Nikhil";
+        String s2 = " Nikhil";
+        String s3 = " Nikhil";
+        String s4 = " Nikhil";
+        s1 = s1.concat("Biradar");
+
+
+        System.out.println(s1 == s2 && s2 == s3 && s3 == s4);
+    }*/
 }
+
+
 
 
 /*
