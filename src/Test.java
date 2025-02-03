@@ -2,14 +2,10 @@
 
 public class Test {
 
-    public static void main(String[] args) {
+}
 
-        int arr [] = {1, 5, -8, 6, 7, 0, -3, 4};
-
-
-    }
-
-    /*
+/*
+public class Test {
     public static void main(String[] args) {
 
         String s1 = " Nikhil";
@@ -18,13 +14,10 @@ public class Test {
         String s4 = " Nikhil";
         s1 = s1.concat("Biradar");
 
-
         System.out.println(s1 == s2 && s2 == s3 && s3 == s4);
-    }*/
+    }
 }
-
-
-
+*/
 
 /*
 import java.util.Scanner;

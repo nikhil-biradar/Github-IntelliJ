@@ -1,6 +1,6 @@
 package oops.encapsulation;
 
-public class Example1 {
+public class EmployeeDetails {
 
     private String name;
     private int age;
@@ -49,7 +49,7 @@ public class Example1 {
     }
 
     public static void main(String[] args) {
-        Example1 obj = new Example1();
+        EmployeeDetails obj = new EmployeeDetails();
         obj.name = "Nikhil Biradar";
         obj.age = 23;
         obj.address = "Udgir";
