@@ -3,13 +3,40 @@
 public class Test {
     public static void main(String[] args) {
 
-        String s1 = "Nikhil";
-
-        String s2 = new String("Nikhil");
-
+        System.out.println("abc");
+        String cde = "cde";
+        System.out.println("abc" + cde);
+        String c = "abc".substring(2,3);
+        System.out.println(c);
+        String d = cde.substring(1, 2);
+        System.out.println(d);
     }
 }
 
+// String Creation and checking by using equality Operator
+/*
+public class Test {
+    public static void main(String[] args) {
+
+        String s1 = "Nikhil";
+        System.out.println(s1);
+
+        String s2 = new String("Nikhil");
+        System.out.println(s2);
+
+        char [] arr = {'N', 'i', 'k', 'h', 'i', 'l'};
+        String s3 = new String(arr);
+        System.out.println(s3);
+
+        System.out.println(s1 == s2); //false
+        System.out.println(s1 == s3); //false
+        System.out.println(s2 == s3); //false
+    }
+}
+*/
+
+
+//Equal Operator of String class
 /*
 public class Test {
     public static void main(String[] args) {
@@ -25,6 +52,7 @@ public class Test {
 }
 */
 
+//CompareToIgnoreCase of Strings
 /*
 import java.util.Scanner;
 
@@ -42,6 +70,8 @@ public class Test {
 }
 */
 
+
+//Inheritance
 /*
 class Test {
 
@@ -61,16 +91,15 @@ class Test {
         Test b = new Test();
     }
 }
+
+class A extends Test {
+
+    public static void main(String[] args) {
+        Test a = new Test();
+
+    }
+}
 */
-
-//class A extends Test {
-//
-//    public static void main(String[] args) {
-//        Test a = new Test();
-//
-//    }
-//}
-
 
 //BinarySearch Array Method
 /*
@@ -130,6 +159,7 @@ class Test1 {
         System.out.println("2-arg Constructor Test1");
     }
 }
+
 public class Test extends Test1 {
     public Test() {
         this(23, "Aa");

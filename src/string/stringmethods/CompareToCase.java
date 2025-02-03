@@ -8,7 +8,12 @@ public class CompareToCase {
         String s2 = "mumbai";
         String s3 = "ranchi";
         String s4 = "pune";
-        String s5 = " "; // Empty string.
+        String s5 = ""; // Empty string.
+        String s6 = new String("mumbai");
+
+
+// This statement will print 0 because both are equal.
+        System.out.println(s1.compareTo(s6));
 
 // This statement will print 0 because both are equal.
         System.out.println(s1.compareTo(s2));
