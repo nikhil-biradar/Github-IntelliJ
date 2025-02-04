@@ -1,4 +1,52 @@
+import java.util.Scanner;
 
+/*
+//Palindrome Number using charAt() method
+class Test {
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter a Number : ");
+        String str = sc.nextLine();
+        String rev = "";
+
+        for(int i = str.length()-1; i >= 0; i--){
+            rev += str.charAt(i);
+        }
+        if(str.equals(rev)){
+            System.out.println("Palindrome Number");
+        }else{
+            System.out.println("Not a Palindrome Number");
+        }
+    }
+}
+*/
+
+/*
+//Palindrome Number
+class Test {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter a Number : ");
+        int num = sc.nextInt();
+        int temp = num, rev = 0;
+
+        while(temp != 0){
+            rev = temp % 10 + rev * 10;
+            temp /= 10;
+        }
+
+        if(num == rev){
+            System.out.println("Palindrome Number");
+        }else{
+            System.out.println("Not a Palindrome Number");
+        }
+    }
+}
+*/
+
+/*
+// CompareTo case of String
 public class Test {
     public static void main(String[] args) {
 
@@ -15,6 +63,7 @@ public class Test {
 
     }
 }
+*/
 
 /*
 //Static

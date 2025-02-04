@@ -1,6 +1,4 @@
-package practiceprograms;
-
-import java.util.Scanner;
+package practiceprograms.string;
 
 /*
 public class CharacterCount {
@@ -18,11 +16,9 @@ public class CharacterCount {
 */
 
 
-public class CharacterCount {
+public class SpecificCharCount {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.print("Enter a String : ");
-        String str = sc.nextLine();
+        String str = "Java";
         int count = 0;
 
         for (int i = 0; i < str.length(); i++) {

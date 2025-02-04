@@ -1,6 +1,6 @@
-package practiceprograms;
+package practiceprograms.string;
 
-public class CharacterOccurance {
+public class CharacterOccurrence  {
     public static void main(String[] args) {
 
         String name = "Nikhil";

@@ -1,4 +1,4 @@
-package practiceprograms;
+package practiceprograms.string;
 
 public class WordCount {
     public static void main(String[] args) {
