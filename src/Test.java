@@ -1,4 +1,23 @@
 
+public class Test {
+    public static void main(String[] args) {
+
+        String s1 = "Java";
+        String s2 = "java";
+        String s3 = "Javaa";
+        String s4 = "Java";
+
+        System.out.println(s1.compareTo(s2));
+        System.out.println(s1.compareTo(s3));
+        System.out.println(s1.compareTo(s4));
+        System.out.println(s3.compareTo(s4));
+        System.out.println(s3.compareTo(s3)); //0
+
+    }
+}
+
+/*
+//Static
 class Test
 {
     // static variable
@@ -29,6 +48,7 @@ class Test
         System.out.println(sb1 == sb);
     }
 }
+*/
 
 /*
 public class Test {

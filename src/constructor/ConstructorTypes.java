@@ -1,4 +1,4 @@
-package accessmodifiers.constructor;
+package constructor;
 
 public class ConstructorTypes {
     int a;
