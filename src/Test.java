@@ -1,5 +1,72 @@
 
+class Test
+{
+    // static variable
+     static int a =12;
 
+    // static block
+    static {
+        System.out.println("Inside static block");
+    }
+
+    // static method
+    static int m1() {
+        System.out.println("from m1");
+        return 20;
+    }
+
+    // static method(main !!)
+    public static void main(String[] args)
+    {
+        System.out.println("Value of a : "+ a);
+        System.out.println("from main");
+        Test.m1();
+
+        String s1 = "Nikhil";
+        StringBuffer sb = new StringBuffer("Nikhil");
+        StringBuffer sb1 = new StringBuffer("Nikhil");
+
+        System.out.println(sb1 == sb);
+    }
+}
+
+/*
+public class Test {
+    public static void main(String[] args) {
+
+        String s1 = "Nikhil";
+        String s2 = "Nikhil";
+        String s3 = s1.concat("Biradar");
+
+        String s4 = "Nikhil" + " Biradar";
+
+        System.out.println(s4);
+
+        System.out.println(s1 == s4);
+
+    }
+}
+
+ */
+
+
+
+//Intern Method
+/*
+public class Test {
+    public static void main(String[] args) {
+
+        String s1 = "Sharma";
+        String s2 = new String("Sharma");
+        s2 = s2.intern();
+
+        System.out.println(s1 == s2);
+    }
+}
+*/
+
+// subString Method
+/*
 public class Test {
     public static void main(String[] args) {
 
@@ -12,6 +79,7 @@ public class Test {
         System.out.println(d);
     }
 }
+*/
 
 // String Creation and checking by using equality Operator
 /*

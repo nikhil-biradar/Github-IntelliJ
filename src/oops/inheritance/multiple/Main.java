@@ -1,11 +1,11 @@
 package oops.inheritance.multiple;
 
 interface One {
-    public void display_name();
+    void display_name();
 }
 
 interface Two {
-    public void display_fathers_name();
+    void display_fathers_name();
 }
 
 
