@@ -1,5 +1,23 @@
 import java.util.Scanner;
 
+class A {
+    void show(){
+        System.out.println("Class A");
+    }
+
+}
+
+public class Test extends A{
+
+    public static void main(String[] args) {
+
+        Test t = new Test();
+        t.show();
+    }
+
+}
+
+
 /*
 //Palindrome Number using charAt() method
 class Test {
