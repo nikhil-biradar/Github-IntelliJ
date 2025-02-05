@@ -1,16 +1,20 @@
 package exceptionhandling;
 
-import java.util.Scanner;
-
+//Exception Occurs if divide by 0
 public class ArithmeticException {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Enter First Number : ");
-        int num1 = sc.nextInt();
-        System.out.println("Enter Second Number : ");
-        int num2 = sc.nextInt();
 
-        int div = num1 / num2;
-        System.out.println("Sum is : " + div);
+        System.out.println("One");
+        System.out.println("Two");
+
+        //Exception Handling
+        try{
+            System.out.println(10/0);
+        } catch (java.lang.ArithmeticException e) {
+            System.out.println("A Number cannot be divided by zero");
+        }
+
+        System.out.println("Three");
+        System.out.println("Four");
     }
 }
